@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  root 'tasks#about'
+  root 'tasks#home'
 
-  # get '/about', to: 'static_tasks#about'
+  get '/about', to: 'tasks#about'
   resources :tasks
 end

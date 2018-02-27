@@ -4,4 +4,5 @@
   <h2><%= task.task %></h2>
   <%= link_to 'Show Task', task_path(task) %>
   <%= link_to 'Edit Task', edit_task_path(task) %>
+  <%= link_to 'Destroy Task', task, method: :delete %>
 <% end %>

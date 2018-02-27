@@ -4,7 +4,7 @@
   <%= f.text_field :task %>
 
   <%= f.label :priority %>
-  <%= f.text_area :priority %>
+  <%= f.select :priority, options_for_select([' ','1', '2', '3', '4', '5'])%>
 
   <%= f.label :completed %>
   <%= f.text_area :completed %>
